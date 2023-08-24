@@ -2,11 +2,27 @@
 
 Ingresar a la página de la herramienta y entender:
 - Cuál es su mayor utilidad
-- Fases de maven
-- Ciclo de vida de la construcción
-- Para qué sirven los plugins
-- Qué es y para qué sirve el repositorio central de maven
+    >Sirve principalmente para la gestion y construccion de proyectos.
 
+- Fases de maven
+    * validate
+    * compile
+    * test
+    * package
+    * verify
+    * install
+    * deploy
+
+- Ciclo de vida de la construcción
+    - clean
+    - Default
+    - Site
+
+- Para qué sirven los plugins
+    >Para ampliar las funciones del codigo
+
+- Qué es y para qué sirve el repositorio central de maven
+    >Sirve para mantener todos los plugins o repositorios que se puedan necesitar a la hora de realizar un proyecto
 ## EJERCICIO DE LAS FIGURAS
 ### CREAR UN PROYECTO CON MAVEN
 
@@ -48,14 +64,20 @@ mvn exec:java -Dexec.mainClass="Com.nose.Main" -Dexec.args="Param1"
 
 Ejecutar nuevamente la clase desde línea de comandos y verificar la salida: Hello World!
 
-![](helloWorld.jpg)
+![](https://github.com/Parralol/LAB02/blob/main/resources/helloWorld.png)
 
 Ejecutar la clase desde línea de comandos enviando su nombre como parámetro y verificar la salida. Ej: Hello Pepito!
-
+![](https://github.com/Parralol/LAB02/blob/main/resources/Santiago%20Parra.png)
 
 Ejecutar la clase con su nombre y apellido como parámetro. ¿Qué sucedió?
-
+![](https://github.com/Parralol/LAB02/blob/main/resources/Santiago%20Parra.png)
 
 Verifique cómo enviar los parámetros de forma "compuesta" para que el saludo se realice con nombre y apellido.
 
+Se puede con:
+![](https://github.com/Parralol/LAB02/blob/main/resources/args.png)
+
+
 Ejecutar nuevamente y verificar la salida en consola. Ej: Hello Pepito Perez!
+
+![](https://github.com/Parralol/LAB02/blob/main/resources/Santiago%20Parra.png)
