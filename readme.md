@@ -66,9 +66,9 @@ Utilizar la primera posición del parámetro que llega al método "main" para re
 
 Buscar cómo enviar parámetros al plugin "exec".
 
-Se puede realizar con el comando:
-
-`mvn exec:java -Dexec.mainClass="Com.nose.Main" -Dexec.args="Param1"`
+>Se puede realizar con el comando:
+    
+    `mvn exec:java -Dexec.mainClass="Com.nose.Main" -Dexec.args="Param1"`
 
 ![]()
 
