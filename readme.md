@@ -91,3 +91,16 @@ Se puede con:
 Ejecutar nuevamente y verificar la salida en consola. Ej: Hello Pepito Perez!
 
 ![](https://github.com/Parralol/LAB02/blob/main/resources/Santiago%20Parra.png)
+
+## HACER EL ESQUELETO DE LA APLICACIÓN
+¿Cuál fábrica hiciste? y ¿Cuál es mejor?
+    >Simple Factory: debido a la baja complejidad del codigo necesario, ademas de necesitar obtener un solo objeto a la hora de obtener algun parametro, no se necesita ningun tipo de abstraccion
+
+Ejecute múltiples veces la clase ShapeMain, usando el plugin exec de maven con los siguientes parámetros y verifique la salida en consola para cada una:
+- Sin parámetros
+- Parámetro: qwerty
+- Parámetro: pentagon
+- Parámetro: Hexagon
+
+¿Cuál(es) de las anteriores instrucciones se ejecutan y funcionan correctamente y por qué?
+    >se ejecuta unicamente Hexagon, ya que pentagon no posee las mismas letras que "Pentagon", qwerty es una opcion que NO existe y al no obtener parametros, no generara ningun output
