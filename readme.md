@@ -1,4 +1,4 @@
-# Realizado por Santiago Parra, Alejandro Silva Lozada
+
 ## LA HERRAMIENTA MAVEN
 
 Ingresar a la página de la herramienta y entender:
