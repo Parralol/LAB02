@@ -26,6 +26,15 @@ Ingresar a la página de la herramienta y entender:
     >Sirve para mantener todos los plugins o repositorios que se puedan necesitar a la hora de realizar un proyecto
 ## EJERCICIO DE LAS FIGURAS
 ### CREAR UN PROYECTO CON MAVEN
+Buscar cómo se crea un proyecto maven con ayuda de los arquetipos (archetypes).
+    >Se crea con mvn archetype:generate
+Busque cómo ejecutar desde línea de comandos el objetivo "generate" del plugin "archetype"
+
+`mvn archetype:generate
+  -DgroupId=[your project's group id]
+  -DartifactId=[your project's artifact id]
+  -DarchetypeGroupId=org.apache.maven.archetypes
+  -DarchetypeArtifactId=maven-archetype-archetype`
 
 ## AJUSTAR ALGUNAS CONFIGURACIONES EN EL PROYECTO
 
