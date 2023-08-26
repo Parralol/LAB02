@@ -68,7 +68,7 @@ Buscar cómo enviar parámetros al plugin "exec".
 
 Se puede realizar con el comando:
 
-mvn exec:java -Dexec.mainClass="Com.nose.Main" -Dexec.args="Param1"
+`mvn exec:java -Dexec.mainClass="Com.nose.Main" -Dexec.args="Param1"`
 
 ![]()
 
